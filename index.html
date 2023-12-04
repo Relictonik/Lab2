@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна №2</title>
+    <style type="text/css">
+        body {
+        color: rgb(221, 125, 0);
+        }
+        </style>
+    <link rel="stylesheet" href="outside.css">
+    <style>
+        .absolute_box {
+        position: absolute;
+        top: 242px;
+        left: 250px;
+        height: 125px;
+        width: 500px;
+        background: yellow;
+        }
+        .relative_box {
+        position: relative;
+        top: 0px;
+        left: 250px;
+        height: 125px;
+        width: 500px;
+        background: blue;
+        }
+        </style>
+
+    <style>
+            
+            h1 {
+                color: blue;
+                text-align: center;
+            }
+    
+            
+            .highlight {
+                background-color: yellow;
+                font-weight: bold;
+            }
+    
+            
+            #main {
+                border: 1px solid black;
+                padding: 10px;
+            }
+        </style>
+
+    <style>
+    .position {
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+        position: absolute;
+        top: 700px;
+        left: 200px;
+    }
+    </style>
+
+<style>
+    .image {
+        float: left;
+            padding: 8px;
+            text-decoration: none;
+            color: black;
+    }
+</style>
+
+<link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <h1>Стильова таблиця, розташована у зовнішньому CSS-файлі.</h1>
+    
+    <p style="font-size: 25px; color: rgb(59, 65, 182); font-family: Verdana, Geneva, sans-serif">
+        inline-опис стилю.
+    </p>
+
+    <p>За допомогою контейнера style у секції заголовка.</p>
+    
+    
+<div style="position: absolute; top: 50px; right:
+150px; border: 4px double black; height:50%;
+width:50%;">  Елемент, для стилізації якого використовувати властивість position та властивості для вказівки зміщення положення елемента.
+<div class="absolute_box"></div>
+<div class="relative_box" style="top: 100px;"></div>
+</div>
+
+    
+<p class="highlight">Цей текст виділений класом highlight та має жирний шрифт.</p>
+    
+<div id="main">
+
+    <p>Цей елемент має ідентифікатор #main та застосовані до нього стилі.</p>
+
+</div>
+    
+<div class="position">
+        Цей елемент має абсолютне позиціонування та зміщення відносно вказаних координат.
+</div>
+    
+<div class="content">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <svg class="image" height="100" width="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="none" />
+        </svg>
+        <p>Et quibusdam esse et rerum vitae quo repudiandae eius in quasi nesciunt.</p>
+        <p>Qui galisum dolor sit tempore corporis ab autem voluptatem?</p>
+        <p>Ut quia laboriosam est ratione delectus quo omnis architecto id similique iusto.</p>
+        <p></p> Aut dolor corporis At omnis voluptas et doloribus quae.
+        <p></p>Et eaque expedita aut possimus molestiae qui voluptas dolores non harum voluptas ut voluptatem fugiat.
+</div>
+
+<div class="checkbox-container">
+    <input type="checkbox" id="checkbox1">
+    <label for="checkbox1" class="checkbox">1</label>
+
+    <input type="checkbox" id="checkbox2">
+    <label for="checkbox2" class="checkbox">2</label>
+
+    <input type="checkbox" id="checkbox3">
+    <label for="checkbox3" class="checkbox">3</label>
+    
+    <input type="checkbox" id="checkbox4">
+    <label for="checkbox4" class="checkbox">4</label>
+
+    <input type="checkbox" id="checkbox5">
+    <label for="checkbox5" class="checkbox">5</label>
+
+    <input type="checkbox" id="checkbox6">
+    <label for="checkbox6" class="checkbox">6</label>
+
+    <input type="checkbox" id="checkbox7">
+    <label for="checkbox7" class="checkbox">7</label>
+
+    <input type="checkbox" id="checkbox8">
+    <label for="checkbox8" class="checkbox checkbox8">8</label>
+
+    <input type="checkbox" id="checkbox9">
+    <label for="checkbox9" class="checkbox">9</label>
+</div>
+
+</body>
+</html>

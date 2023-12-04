@@ -1,0 +1,43 @@
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: none; 
+}
+
+
+label.checkbox {
+    display: inline-block;
+    padding: 10px;
+    background-color: yellow;
+    color: black; 
+    cursor: pointer;
+    margin: 5px; 
+    width: 15px;
+    height: 40px;
+}
+.checkbox8 {
+    flex-grow: 1;
+}
+label.checkbox:last-child {
+    width: 100%;
+}
+
+input[type="checkbox"]:checked + label.checkbox {
+    background-color: lime; 
+    color: black;
+}
+
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+}
+
